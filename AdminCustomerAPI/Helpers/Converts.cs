@@ -1,5 +1,4 @@
-﻿using AdminCustomerAPI.Models;
-using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+﻿using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json.Converters;
 

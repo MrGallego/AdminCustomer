@@ -3,7 +3,7 @@ using Newtonsoft.Json.Converters;
 using System.ComponentModel.DataAnnotations;
 using static AdminCustomerAPI.Helpers.Converts;
 
-namespace AdminCustomerAPI.Dto
+namespace AdminCustomerAPI.Repository.Dto
 {
     public class CustomerDto
     {

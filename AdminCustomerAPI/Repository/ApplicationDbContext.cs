@@ -1,4 +1,4 @@
-﻿using AdminCustomerAPI.Models;
+﻿using AdminCustomerAPI.Repository.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace AdminCustomerAPI.Repository
