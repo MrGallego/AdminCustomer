@@ -1,5 +1,5 @@
-﻿using AdminCustomerAPI.Repository.Dto;
-using AdminCustomerAPI.Repository.Models;
+﻿using AdminCustomerAPI.Models.Dto;
+using AdminCustomerAPI.Models.Models;
 using AutoMapper;
 
 namespace AdminCustomerAPI.Infrastructure

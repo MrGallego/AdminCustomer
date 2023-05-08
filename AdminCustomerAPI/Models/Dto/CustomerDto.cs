@@ -3,9 +3,9 @@ using Newtonsoft.Json.Converters;
 using System.ComponentModel.DataAnnotations;
 using static AdminCustomerAPI.Helpers.Converts;
 
-namespace AdminCustomerAPI.Repository.Dto
+namespace AdminCustomerAPI.Models.Dto
 {
-    public class CustomerCreateDto
+    public class CustomerDto
     {
         [Required]
         public string TipoIdentificacion { get; set; }

@@ -1,6 +1,6 @@
-﻿using AdminCustomerAPI.Repository;
-using AdminCustomerAPI.Repository.Dto;
-using AdminCustomerAPI.Repository.Models;
+﻿using AdminCustomerAPI.Models;
+using AdminCustomerAPI.Models.Dto;
+using AdminCustomerAPI.Models.Models;
 using AutoMapper;
 using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;

@@ -1,5 +1,5 @@
 using AdminCustomerAPI.Infrastructure;
-using AdminCustomerAPI.Repository;
+using AdminCustomerAPI.Models;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

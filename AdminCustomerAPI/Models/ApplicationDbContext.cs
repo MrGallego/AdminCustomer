@@ -1,7 +1,7 @@
-﻿using AdminCustomerAPI.Repository.Models;
+﻿using AdminCustomerAPI.Models.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace AdminCustomerAPI.Repository
+namespace AdminCustomerAPI.Models
 {
     public class ApplicationDbContext : DbContext
     {
