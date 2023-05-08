@@ -5,7 +5,7 @@ using static AdminCustomerAPI.Helpers.Converts;
 
 namespace AdminCustomerAPI.Dto
 {
-    public class CustomerDto
+    public class CustomerCreateDto
     {
         [Required]
         public string TipoIdentificacion { get; set; }

@@ -5,17 +5,21 @@ using static AdminCustomerAPI.Helpers.Converts;
 
 namespace AdminCustomerAPI.Dto
 {
-    public class CustomerDto
+    public class CustomerUpdateDto
     {
         [Required]
         public string TipoIdentificacion { get; set; }
         [Required]
         public int NumeroIdentificacion { get; set; }
+        [Required]
         public string Nombres { get; set; }
+        [Required]
         public string Apellidos { get; set; }
+        [Required]
         public string Correo { get; set; }
 
         [JsonConverter(typeof(CustomDateTimeConvert))]
+        [Required]
         public DateTime FechaNacimiento { get; set; }
     }
 
