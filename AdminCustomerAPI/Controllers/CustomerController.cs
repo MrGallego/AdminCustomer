@@ -36,7 +36,7 @@ namespace AdminCustomerAPI.Controllers
         {
             if (iden == 0)
             {
-                _logger.LogError("error al traer el cliente con el id  " + iden);
+                _logger.LogError("error al traer el cliente con el numero de identificacion:  " + iden);
                 return BadRequest();
             }
             var customer = _context.Customers.FirstOrDefault(x => x.NumeroIdentificacion == iden);
@@ -59,7 +59,7 @@ namespace AdminCustomerAPI.Controllers
             }
             if (_context.Customers.FirstOrDefault(c => c.NumeroIdentificacion == customerDto.NumeroIdentificacion) != null)
             {
-                ModelState.AddModelError("IdentificacionExiste", "Verifique el documento, se encuentra ya registrado");
+                ModelState.AddModelError("IdentificacionExiste", "Verifique el documento, ya que se encuentra registrado");
                 return BadRequest(ModelState);
             }
             if (customerDto == null)
