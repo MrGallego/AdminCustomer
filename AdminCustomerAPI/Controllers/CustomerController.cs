@@ -151,7 +151,7 @@ namespace AdminCustomerAPI.Controllers
             if (data == null) return BadRequest();
             jsonPatch.ApplyTo(customerDto, (Microsoft.AspNetCore.JsonPatch.Adapters.IObjectAdapter)ModelState);
             if (!ModelState.IsValid)
-            {
+        {
                 return BadRequest(ModelState);
             }
             Customer customer = new()
